@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(195, 240, 156);
+}
+.container{
+    margin: 10% 38%;
+    
+}
+.logo{
+ width: 300px;
+ height: 300px; 
+ border-radius: 60px;
+ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+}
+
+.logo-shape{
+    width: 83%;
+    height: 83%;
+    border-radius: 60px;
+    border: 16px solid white;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.circle{
+    width: 40%;
+    height:40%;
+    border-radius: 100%;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border: 17px solid white;
+    position: absolute;
+    top:60px;
+    left: 57px;
+}
+.small{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    background-color: white;
+    top: 15px;
+    right: 15px;
+}
